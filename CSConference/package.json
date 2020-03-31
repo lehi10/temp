@@ -1,0 +1,28 @@
+{
+  "name": "csconference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon index.js",
+    "start": "NODE_ENV=prod node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlechitUp/CSConference.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlechitUp/CSConference/issues"
+  },
+  "homepage": "https://github.com/FlechitUp/CSConference#readme"
+}
